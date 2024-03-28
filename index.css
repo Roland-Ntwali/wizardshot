@@ -2,7 +2,10 @@
     position: relative;
     border-radius: 20px;
     overflow: hidden;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 .border-gradient {
     width: 100%;
@@ -11,4 +14,50 @@
     border-style: solid;
     border-image: linear-gradient(to right, #ff8a00, #e52e71);
     border-image-slice: 1;
+}
+.install-button {
+    display: flex;
+    text-decoration: none; /* remove underline */
+    align-items: center;
+  }
+  
+  .icon {
+    width: 20px; /* adjust as needed */
+    height: 20px; /* adjust as needed */
+    vertical-align: middle;
+    margin-right: 5px; /* adjust as needed */
+    display: flex;
+    align-items: center;
+  }
+  .image1{
+    width:297px;
+    height:234px;
+  }
+.imagez {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 33%;
+}
+.text{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.border-b{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  font-size: 40px;
+}
+.border{
+  width: 60%;
+}
+.questions{
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }

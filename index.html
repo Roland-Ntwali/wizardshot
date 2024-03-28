@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 <body>
-    <header class="relative flex justify-between items-center px-4 py-6 text-white mb-20">
+    <header class="relative flex justify-between items-center px-4 py-6 text-white mb-4">
         <div class="text-xl font-bold text-black">Wizardshot</div>
         <div class="absolute top-0 right-0 mt-[-20px] mr-4 text-sm text-black font-alphabetized-cassette-tapes-thin">100% free, forever 🤑</div>
         <nav class="flex space-x-4">
@@ -19,79 +19,174 @@
             <a href="#" class="hover:text-gray-200 text-black">Help Center & Community</a>
         </nav>
         <div class="flex items-center">
-            <a href="#" class="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded-md mr-2">Login</a>
-            <a href="#" class="bg-black text-white px-4 py-2 rounded-md font-bold">Install Wizardshot</a>
+            <a href="#" class="text-black px-4 py-2 rounded-md mr-2">Login</a>
+            <a href="#" class="install-button bg-black text-white px-4 py-2 rounded-md font-bold">
+                <img src="images/chrome.png" alt="Chrome Icon" class="icon"> Install Wizardshot
+              </a>              
+              
         </div>
     </header>
-    <section class="hero flex flex-col justify-center items-center h-screen bg-cover bg-no-repeat bg-center" style="background-image: url('hero-image.jpg')">
-        <h1 class="text-4xl font-bold text-black text-center mb-4">Your Magic Wand for</h1>
+    <section class="hero flex flex-col justify-center items-center" style="background-image: url('hero-image.jpg')">
+        <h1 class="text-4xl font-bold text-black text-center mb-4 mt-8">Your Magic Wand for</h1>
         <div class="flex justify-center">
           <div class="text-4xl font-bold text-black">Instant Documentation</div>
         </div>
 
-        <p class="text-xl text-gray-200 text-center">TURN ANY PROCESS INTO A SIMPLE STEP-BY-STEP GUIDE</p>
+        <p class="text-xl text-gray-600 text-center mt-8">TURN ANY PROCESS INTO A SIMPLE STEP-BY-STEP GUIDE</p>
         <div class="flex justify-center">
-            <a href="#" class="bg-black hover:bg-blue-700 text-white px-4 py-2 rounded-md font-bold mt-8">Install Wizardshot →</a>
+            <a href="#" class="bg-black hover:bg-blue-700 text-white px-4 py-2 rounded-md font-bold mt-8 mb-8">Install Wizardshot →</a>
         </div>
         <div class="flex justify-center">
-            <div class="image-container mt-18">
+            <div class="image-container mt-18 mb-20">
                 <img src="images/IMG-01.jpg" alt="Image" class="rounded-lg border-gradient">
             </div>
         </div>                          
     </section>
-    <section class="text-center py-16">
+    <section class="text-center mt-8">
         <h1 class="text-4xl font-bold leading-tight">Say <u>Goodbye To Writing Docs</u>, and</h1>
         <h1 class="text-4xl font-bold leading-tight">To Wizardshot Doing it for YOU.</h1>
-        <div class="flex flex-col lg:flex-row justify-center items-center space-y-8 mt-8">
-            <div class="flex items-center space-x-4">
-                <div>
-                    <div class="image-container mt-18">
-                        <img src="images/clickcapture.png" alt="Image" class="rounded-lg border-gradient">
-                    </div>
-                    <div class="text-xl font-medium">1. Start Capturing</div>
-                    <p class="text-gray-600">Once you install the Chrome extension, fire it up, and click "Capture".</p>
-                </div>
+        <div class="flex flex-col lg:flex-row justify-between items-center mt-8">
+    <div class="imagez flex justify-center items-center space-x-4">
+        <div>
+            <div class="image-container mt-18">
+                <img src="images/clickcapture.png" alt="Image" class="image1 rounded-lg border-gradient">
             </div>
-          
-            <div class="flex items-center space-x-4">
-                <div>
-                    <div class="image-container mt-18">
-                        <img src="images/performcard.png" alt="Image" class="rounded-lg border-gradient">
-                    </div>
-                    <div class="text-xl font-medium">2. Perform Your Actions</div>
-                    <p class="text-gray-600">Once capturing, Wizardshot carefully monitors what you do to understand how to document it.</p>
-                </div>
+            <div class="text-xl font-medium">1. Start Capturing</div>
+            <p class="text-gray-600">Once you install the Chrome extension, fire it up, and click "Capture".</p>
+        </div>
+    </div>
+    
+    <div class="imagez flex justify-center items-center space-x-4">
+        <div>
+            <div class="image-container mt-18">
+                <img src="images/performcard.png" alt="Image" class="image1 rounded-lg border-gradient">
             </div>
-            <div class="flex items-center space-x-4">
-                <div>
-                    <div class="image-container mt-18">
-                        <img src="images/Done.png" alt="Image" class="rounded-lg border-gradient">
-                    </div>
-                    <div class="text-xl font-medium">3. Done. Article Written</div>
-                    <p class="text-gray-600">Wizardshot carefully crafts the perfect article based off your actions recorded. Just click "Done" and we'll write up the article in a second.</p>
-                </div>
+            <div class="text-xl font-medium">2. Perform Your Actions</div>
+            <p class="text-gray-600">Once capturing, Wizardshot carefully monitors what you do to understand how to document it.</p>
+        </div>
+    </div>
+    
+    <div class="imagez flex justify-center items-center space-x-4">
+        <div>
+            <div class="image-container mt-18">
+                <img src="images/Done.png" alt="Image" class="image1 rounded-lg border-gradient">
             </div>
-        </div> 
+            <div class="text-xl font-medium">3. Done. Article Written</div>
+            <p class="text-gray-600">Wizardshot carefully crafts the perfect article based off your actions recorded. Just click "Done" and we'll write up the article in a second.</p>
+        </div>
+    </div>
+
+            
+  </div> 
         <div class="flex flex-col justify-center items-center mt-16">
             <div class="text-xl font-bold"><u>+32 MORE FEATURES</u></div>
-            <div class="text-gray-600 mt-2">INCLUDING A KB INTEGRATION</div>
+            <div class="mt-2 font-bold">INCLUDING A KB INTEGRATION</div>
         </div>               
       </section>
 <section>
     <div class="container mx-auto px-4 flex flex-col justify-center items-center space-y-8">
-        <div class="flex flex-col space-y-4 text-center">
-            <p class="text-xl text-gray-600">Free Forever</p>
-            <p class="text-xl text-gray-600">Unlimited Creation</p>
-            <p class="text-xl text-gray-600">Powerful Integrations</p>
+        <div class="flex flex-row space-x-8 text-center">
+            <div class="flex flex-row">
+            <h2 class="border-b">Free</h2>
+            <div>
+            <p class="text-xl text-gray-600 text">Free</p>
+            <p class="text-xl text-gray-600 text">Forever</p>
+            </div>
+            </div>
+            <div class="flex flex-row">
+            <h2 class="border-b">Unlimited</h2>
+            <div>
+            <p class="text-xl text-gray-600 text">Unlimited</p>
+            <p class="text-xl text-gray-600 text">Creation</p>
+            </div>
+            </div>
+            <div class="flex flex-row">
+            <h2 class="border-b">Powerful</h2>
+            <div>
+            <p class="text-xl text-gray-600 text">Editor &</p>
+            <p class="text-xl text-gray-600 text">Intergration</p>
+            </div>
+            </div>
         </div>
-        <div class="flex flex-col justify-center items-center space-y-4">
-            <h1 class="text-4xl font-bold leading-tight">Create A Detailed Tutorial In Less Than 3 Clicks</h1>
-            <img src="install-wizardshot.png" alt="Install Wizardshot" class="mx-auto w-64 md:w-auto border rounded-lg">
-            <p class="text-lg text-center text-gray-600 mt-4 md:mt-0">"Has Helped Us Write Help Docs 100x Faster"</p>
-            <p class="text-center text-gray-600 font-medium">Dany River, Cartier Informatie</p>
+        <div class="flex flex-col justify-center items-center space-y-4 border border-gray-300 rounded-lg p-4">
+            <h1 class="text-4xl font-bold leading-tight">
+                <span class="inline-block">Create A Detailed Tutorial</span>
+                <span class="block text-center">In Less Than 3 Clicks</span>
+            </h1>
+            <a href="#" class="install-button bg-black text-white px-4 py-2 rounded-md font-bold">
+                <img src="images/chrome.png" alt="Chrome Icon" class="icon"> Install Wizardshot
+              </a> 
+            <p class="text-lg text-center text-gray-600 mt-4 md:mt-0 font-bold">"Has Helped Us Write Help Docs 100x Faster"</p>
+            <p class="text-center text-gray-600 font-medium">- Dany River, Cartier Informatie</p>
+        </div>
+        
+    </div>
+</section>
+<section class="py-16">
+    <h1 class="text-4xl font-bold leading-tight text-center">Common Questions</h1>
+    <div class="flex flex-col items-start justify-center space-y-8 mt-8 ques">
+        <div class="flex items-start space-x-4 flex flex-col text-left">
+            <div class="underline text-xl font-medium">What is Wizardshot?</div>
+            <p class="text-gray-600 m-0" style="margin-left: 0; margin-right: 0;">Wizardshot is a web app & chrome extension . that allows you to create step-by-step tutorials simply by capturing your screen.</p>
+        </div>
+        <div class="flex items-start space-x-4 flex flex-col text-left">
+            <div class="underline text-xl font-medium">How is Wizardshot Free?</div>
+            <p class="text-gray-600 m-0" style="margin-left: 0; margin-right: 0;">The costs to run a service is really inexpensive as most of the processing happens in the Chrome extension.
+                Really - all that we have to pay for is super-secure hosting, awesome 24/7 support and that's it. 
+                We built Wizardshot as a stand-alone product with a deep Helpjuice Knowledge Base integration. </p>
+        </div>
+        <div class="flex items-start space-x-4">
+            <div class="underline text-xl font-medium">Is my data secure?</div>
+        </div>
+        <div class="flex justify-between items-start">
+            <div class="underline text-xl font-medium">Curious to learn more?</div>
+            <div>
+                <a href="#" class="px-4 py-2 bg-black text-white font-medium rounded-md shadow-sm hover:bg-gray-800 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-white ml-4">Visit Help & community center</a>
+            </div>
+        </div>
         </div>
     </div>
 </section>
+<section>
+    <div class="flex flex-row">
+        <div>
+            <div class="absolute right-0 mt-[-20px] mr-4 text-sm text-black font-alphabetized-cassette-tapes-thin">100% free, forever 🤑</div>
+            <h1 class="text-4xl font-bold leading-tight">Create Tutorials in 3 Clicks.</h1>
+        </div>
+        <div>
+            <p>With WizardShot, You Click Capture, And We'll Capture What's Happening on Your Screen And Turn It Into A Tutorial.</p>    
+            <h3>Try Wizardshot</h3>
+           </div>
+    </div>
 
+   <div>
+    <div>
+        <H1 class="text-2xl font-bold">WizardShot</H1>
+        <p>Turn complex process into a simple step-by step Guide</p>
+
+    </div>
+    <div>
+        <h2 class="text-lg font-bold">Learn more</h2>
+        <p>Wizardshot</p>
+        <p>Community Page</p>
+        <p>Help Center</p>
+        <p>Security Information</p>
+    </div>
+    <div>
+        <h2 class="text-lg font-bold">Company</h2>
+        <p>About Us</p>
+        <p>Status Page</p>
+    </div>
+    <div>
+        <p>📞 +1 (833) 387 3877</p>
+        <p>✉️ success@wizardshot.com</p>
+        <div>
+            <div>Sign Up</div>
+            <div>Login</div>
+        </div>
+    </div>
+   </div>
+</section>
+<footer>© 2024 Wizardshot - All rights reserved.</footer>
 </body>
 </html>
